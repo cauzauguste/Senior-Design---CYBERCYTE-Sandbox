@@ -1,3 +1,4 @@
+
 import os, asyncio, json, ssl, asyncpg
 from contextlib import asynccontextmanager
 from datetime import datetime
@@ -7,12 +8,18 @@ from dotenv import load_dotenv
 
 # Configure: use environment variables for connection security parameters
 load_dotenv()
+
+# Configure: use environment variables for connection security parameters
+>>>>>>> b2d1ad7 (Edited kafka_to_api)
 KAFKA_BROKER = os.getenv("KAFKA_BROKER", "localhost:9092")
 KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "osquery_logs")
 KAFKA_CA_FILE = os.getenv("KAFKA_CA_FILE")
 KAFKA_CERT_FILE = os.getenv("KAFKA_CERT_FILE")
 KAFKA_KEY_FILE = os.getenv("KAFKA_KEY_FILE")
 
+
+# Supabase/PostgreSQL Configuration (Replacing MongoDB)
+>>>>>>> b2d1ad7 (Edited kafka_to_api)
 # This should be your Supabase connection string (e.g., postgresql://user:pass@host:port/db)
 SUPABASE_DB_URL = os.getenv("SUPABASE_DB_URL", "postgresql://user:password@localhost:5432/postgres")
 # Certificate authority file for secure PostgreSQL connection (often needed for cloud databases)
@@ -140,4 +147,8 @@ async def get_telemetry_count():
             SELECT COUNT(*) FROM {SUPABASE_TABLE_NAME}
             """
         )
+<<<<<<< HEAD
     return {"count": count}
+=======
+    return {"count": count}
+>>>>>>> b2d1ad7 (Edited kafka_to_api)
