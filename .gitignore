@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+HEAD
+HEAD
 node_modules
 venv/
 __pycache__/
@@ -8,8 +7,7 @@ venv/
 __pycache__/
 venv/
 venv/
-=======
->>>>>>> 2b10d3053bd86244731f3d4aa92bfe2ec7d0388a
+ 2b10d3053bd86244731f3d4aa92bfe2ec7d0388a
 venv/
 __pycache__/
 venv/
