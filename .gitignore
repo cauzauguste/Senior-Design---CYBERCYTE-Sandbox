@@ -1,4 +1,26 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+node_modules
+venv/
+__pycache__/
+venv/
+__pycache__/
+venv/
+venv/
+=======
+>>>>>>> 2b10d3053bd86244731f3d4aa92bfe2ec7d0388a
 venv/
 __pycache__/
 venv/
 __pychache__/
+<<<<<<< HEAD
+=======
+>>>>>>> 5a941a1959ecf6e3d917b785491382061f7ea8a4
+__pycache__/
+*.pyc
+__pycache__/
+*.pyc
+*.pyc
+__pycache__/
+>>>>>>> 2b10d3053bd86244731f3d4aa92bfe2ec7d0388a
