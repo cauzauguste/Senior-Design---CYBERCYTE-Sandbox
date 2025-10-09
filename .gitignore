@@ -21,7 +21,4 @@ __pycache__/
 *.pyc
 *.pyc
 __pycache__/
->>>>>>> 2b10d3053bd86244731f3d4aa92bfe2ec7d0388a
-=======
-__pychache__/
->>>>>>> 2c18a14 (Ignore venv and cache files)
+
